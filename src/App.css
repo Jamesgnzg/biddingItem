@@ -1,0 +1,178 @@
+body {
+  background-color: rgb(248, 249, 250) !important;
+}
+
+#root {
+  margin: 0 auto;
+  /*   text-align: center; */
+}
+
+.modal-content {
+  background-color: rgb(248, 249, 250) !important;
+}
+
+.login-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background-color: white;
+  border: 1px solid #64471e;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.confirm-btn {
+  background-color: #ffce55 !important;
+  color: #32230f !important;
+  width: 123px !important;
+}
+
+.sign-up-btn {
+  margin-top: 15px;
+  border-color: #64471e !important;
+  width: 123px !important;
+}
+
+.confirm-btn:hover {
+  border-color: #64471e !important;
+}
+.sign-up-btn:hover {
+  background-color: #ffe091 !important;
+}
+
+.navbar {
+  border-bottom: 3px solid #ffce55;
+}
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  background-color: #f2f2f2 !important;
+}
+.navbar-brand {
+  margin-left: 5%;
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.userName {
+  margin: 0 0.25rem;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.filterButtons {
+  margin: 2%;
+  text-align: left;
+}
+
+.filterButtons .btn {
+  margin: 0 0.25rem;
+}
+
+svg {
+  pointer-events: none;
+}
+
+path {
+  pointer-events: auto;
+}
+
+.userMenu {
+  position: relative;
+  margin-right: 5%;
+  min-height: 40px;
+}
+.userMenuItems {
+  position: absolute;
+  right: 0;
+  /* text-align: right !important; */
+}
+
+.userMenu:hover .userMenuItems {
+  display: block;
+  margin-top: 6px;
+}
+
+.userMenu .userName {
+  padding-top: 10px;
+}
+
+.rowHeader {
+  font-weight: bold;
+}
+
+.bidBtn {
+  min-width: 50%;
+  background-color: #ffce55 !important;
+  color: #32230f !important;
+}
+
+.bidBtn:hover {
+  border-color: #64471e !important;
+}
+.bidItems {
+  margin-bottom: 10px;
+}
+
+.createItemContainer {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background-color: white;
+  border: 1px solid #64471e;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.formNameLabel {
+  text-align: left;
+}
+
+.createItembtn {
+  float: right;
+}
+
+.createItembtn .btn {
+  margin-right: 10px;
+}
+
+.cancel-btn {
+  margin-top: 15px;
+  border-color: #cccccc !important;
+  width: 123px !important;
+}
+
+.cancel-btn:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.ongoing-btn {
+  border-color: #cccccc !important;
+  background-color: #f2f2f2 !important;
+}
+
+.ongoing-btn:hover {
+  background-color: #cccccc !important;
+}
+
+.depositContainer {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background-color: white;
+  border: 1px solid #64471e;
+  border-radius: 5px;
+}
